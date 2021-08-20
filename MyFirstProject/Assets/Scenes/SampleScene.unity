@@ -314,6 +314,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 2
   y: 3
+  name: jorge oswaldo pelayo arellano
+  bossDefeated: 0
+  hasTheKey: 1
 --- !u!1 &1001643189
 GameObject:
   m_ObjectHideFlags: 0
