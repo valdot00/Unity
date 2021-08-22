@@ -15,6 +15,10 @@ public class NewBehaviourScript : MonoBehaviour
     string haircolor = "red";
     int money = 7;
 
+    float temperature = 25;
+    int piNumber = (int)3.14159265;
+
+
     //double p = 20.11111;
     //float p2 = 20.13164;
 
@@ -32,11 +36,20 @@ public class NewBehaviourScript : MonoBehaviour
 
         //Sumalosdosnumeros();
 
-        Debug.Log("hoy es vierne "+name);
+        //Debug.Log("hoy es vierne "+name);
 
-        Debug.LogFormat("el valor de {0} mas el valor de {1} resula {2}",x,y,x+y);
+        //Debug.LogFormat("el valor de {0} mas el valor de {1} resula {2}",x,y,x+y);
 
-        Debug.LogFormat("el valor de "+x+" mas el valor de "+y+" resula ",x+y);
+        //Debug.LogFormat("el valor de "+x+" mas el valor de "+y+" resula ",x+y);
+
+        string sentence = $"el valor de x es {x}";
+        Debug.Log(sentence);
+
+        var currentage = false;
+       // float suma = (float)currentage+price;
+
+
+
     }
     // Update is called once per frame
     void Update()
