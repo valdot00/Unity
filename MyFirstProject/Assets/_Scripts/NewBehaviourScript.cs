@@ -67,9 +67,19 @@ public class NewBehaviourScript : MonoBehaviour
     }
     public void Mimetoido2(){
 
+
     }
 
     public void MakeDamage(){
         health-=10;
+    }
+
+    void CreateCharacter(){
+        string characterName = "PEPE";
+        Debug.Log("el nombre del personaje es: "+characterName);
+
+        if(true){
+            bool success = true;
+        }
     }
 }
