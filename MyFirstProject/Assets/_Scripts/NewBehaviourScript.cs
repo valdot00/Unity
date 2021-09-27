@@ -18,6 +18,22 @@ public class NewBehaviourScript : MonoBehaviour
         }else{
             Debug.Log("No puedes pasaaaaaar");
         }
+
+        string weaponType = "Cuchillo";
+
+        if(weaponType == "espada"){
+            Debug.Log("puedes pasar");
+        }
+
+        int currentGold;
+
+        if(currentGold > 50){
+            if(weaponType == "espada"){
+                Debug.Log("god save the queen")
+            }
+        }else{
+            Debug.Log("tengo mas de 50 monedas y mi arma no es la espada")
+        }
         
     }
 
