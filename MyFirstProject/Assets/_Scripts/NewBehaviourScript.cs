@@ -6,34 +6,17 @@ public class NewBehaviourScript : MonoBehaviour
 {
     void Start()
     {
+        //array
 
-        public bool hasTheKeyToDungeon = true;
-       
+        //int[] ranking = new int[3]; //[0,0,0];
+
+        int[] ranking = new int[]{4,7,9};
+
     }
     
     void Update()
     {
-        if(hasTheKeyToDungeon){
-            Debug.Log("tienes la llave, en horabuena");
-        }else{
-            Debug.Log("No puedes pasaaaaaar");
-        }
-
-        string weaponType = "Cuchillo";
-
-        if(weaponType == "espada"){
-            Debug.Log("puedes pasar");
-        }
-
-        int currentGold;
-
-        if(currentGold > 50){
-            if(weaponType == "espada"){
-                Debug.Log("god save the queen")
-            }
-        }else{
-            Debug.Log("tengo mas de 50 monedas y mi arma no es la espada")
-        }
+       
         
     }
 
